@@ -114,10 +114,7 @@ const Roadmap = () => {
 					</Box>
 					<Box>
 						<Typography variant='heading2' sx={sx.subtitle}>Chimerapillar Trait Merge and Burn</Typography>
-						<Typography variant='text'>Holders with multiple Chimerapillars will be able to select their favourite 
-						traits from two NFTs and merge them into one, while burning the other NFT with the rejected traits. This 
-						will enable holders to customise their Chimerapillars and improve their rarity, while decreasing the supply 
-						& collection size.</Typography>
+						<Typography variant='text'>The <a href="https://chimerapillars.com/#/merge" target="_blank" style={{ textDecoration: 'none', color: '#19a8b4', fontWeight: '700' }}>merge & burn</a> is now live!  Holders with multiple Chimerapillars can select their favourite traits from two NFTs and merge them into one, while burning the other NFT with the rejected traits. This enables holders to customise their Chimerapillars and improve their rarity, while decreasing the supply & collection size.</Typography>
 					</Box>
 					<Box>
 						<Typography variant='heading2' sx={sx.subtitle}>Multimedia Graphic Novel & 400+ Airdrops for Holders</Typography>
@@ -138,15 +135,15 @@ const Roadmap = () => {
 					<Box>
 						<Typography variant='heading2' sx={sx.subtitle}>Pillarian Art Museum in the Metaverse</Typography>
 						<Typography variant='text'>We're collecting Toddlerpillar and Chimerapillar inspired NFTs by some of the most
-						talented artists and animators in Web 3 in our <a style={{ textDecoration: 'none', color: '#19a8b4', fontWeight: '700' }} href="https://opensea.io/Pillarverse-Art-Vault" target="_blank">Pillaverse Art Vault</a>. 
-						We will build a Pillarian Art Museum in the metaverse to permanently showcase this collection. Each artwork is like a portal to a parallel pillarverse, governed by the imagination of it's creator. 
+						talented artists and animators in Web 3 in our <a style={{ textDecoration: 'none', color: '#19a8b4', fontWeight: '700' }} href="https://opensea.io/Pillarverse-Art-Vault" target="_blank">Pillaverse Art Vault</a>.
+						We will build a Pillarian Art Museum in the metaverse to permanently showcase this collection. Each artwork is like a portal to a parallel pillarverse, governed by the imagination of it's creator.
 						We encourage all creatives to participate in our project by expanding upon the Pillarian multiverse with full creative licence.</Typography>
 					</Box>
 					<Box>
 						<Typography variant='heading2' sx={sx.subtitle}>1/1 & Limited Edition Airdrops for Holders on Discord</Typography>
-						<Typography variant='text'>Tim Molloy will continue creating 1/1 hero & villian themed Pillar NFTs and 
-						limited edition Pillar NFTs. Holders with 9 or more Toddlerpillars or Chimerapillars (The Nines) can enter a 
-						weekly draw to win themed 1/1 NFTs & holders who participate in Discord activities can earn larval gems, 
+						<Typography variant='text'>Tim Molloy will continue creating 1/1 hero & villian themed Pillar NFTs and
+						limited edition Pillar NFTs. Holders with 9 or more Toddlerpillars or Chimerapillars (The Nines) can enter a
+						weekly draw to win themed 1/1 NFTs & holders who participate in Discord activities can earn larval gems,
 						which can be exchanged for limited edition NFTs in our Discord shop.</Typography>
 					</Box>
 					<Box>
@@ -168,10 +165,10 @@ const Roadmap = () => {
 			</Box>
 			<Box sx={sx.textContainer}>
 				<Box sx={sx.textCol}>
-					
+
 				</Box>
 				<Box sx={sx.textCol}>
-					
+
 				</Box>
 
 			</Box>

@@ -284,12 +284,13 @@ const sx = {
 	},
 };
 
-const BUTTONS = ['Chimerapillars', 'About', 'Roadmap',  'Rarity', 'OpenSea', 'Merch'];
-const MOBILEBUTTONS = ['Chimerapillars', 'About', 'Roadmap',  'Rarity', 'OpenSea', 'Merch'];
+const BUTTONS = ['Chimerapillars', 'About', 'Roadmap',  'Rarity', 'OpenSea', 'Merge & Burn'];
+const MOBILEBUTTONS = ['Chimerapillars', 'About', 'Roadmap',  'Rarity', 'OpenSea', 'Merge & Burn'];
 const PATHS = [null, '/about', '/roadmap', null, null, null];
 const DROPMENU = ['About Toddlerpillars', 'Mythology', 'History'];
 const DROPMENUPATHS = ['/about', '/mythology', '/history'];
 const urlChimerapillars = 'https://chimerapillars.com';
+const urlChimerapillarsMerge = 'https://chimerapillars.com/#/merge';
 const urlRarity = 'https://rarity.tools/toddlerpillars';
 const urlOpensea = 'https://opensea.io/collection/toddlerpillars';
 const urlMaddies = 'https://maddies.co/official/toddlerpillars/'
@@ -426,6 +427,13 @@ const Header = () => {
 									</a>
 								);
 							}
+							if (btn == 'Merge & Burn'){
+								return (
+									<a href={urlChimerapillarsMerge} style={{ textDecoration: 'none' }} target='_blank' rel='noopener noreferrer'>
+										<HeaderButton key={btn} text='Merge & Burn' vertical />
+									</a>
+								);
+							}
 							return (<HeaderButton key={btn} text={btn} active={activeTab === i} onClick={() => handleNavigation(i)} vertical />);
 						})}
 					</Box>
@@ -511,6 +519,13 @@ const Header = () => {
 									return (
 										<a href={urlMaddies} style={{ textDecoration: 'none' }} target='_blank' rel='noopener noreferrer'>
 											<HeaderButton key={btn} text='Merch' vertical />
+										</a>
+									);
+								}
+								if (btn == 'Merge & Burn'){
+									return (
+										<a href={urlChimerapillarsMerge} style={{ textDecoration: 'none' }} target='_blank' rel='noopener noreferrer'>
+											<HeaderButton key={btn} text='Merge & Burn' vertical />
 										</a>
 									);
 								}
